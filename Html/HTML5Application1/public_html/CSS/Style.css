@@ -1,0 +1,54 @@
+/*
+note for css file
+*/
+
+.row1{
+    height: 250px;
+    width: 100%;
+}
+.row2{
+    height: 50px;
+    width: 100%;
+}
+.row3{
+    height: 500px;
+    width: 100%;
+}
+.row4{
+    height: 700px;
+    width: 100%;
+}
+.bg1{
+    background: #EC1D24;
+}
+.font{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}   
+.col{
+    height: 100%;
+    width: 33.33%;
+    float: left;
+}
+h1{
+   font-size: 30px;
+   color: #EC1D24;
+   text-align: center;
+}
+.Color{
+    background: #e5e5e5;
+    
+}
+.Color2{
+    background: #EC1D24;
+    
+}
+.Color3{
+    background: #CBB66A
+    
+}
+ul{
+      font-size: 20px;
+      list-style-image: url(list.png)
+}
