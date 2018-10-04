@@ -1,0 +1,52 @@
+/* 
+    Created on : Oct 4, 2018, 12:24:11 AM
+    Author     : Asaduzzaman
+*/
+
+body{
+    background-image: url("images/background.jpg")
+}
+#maindiv{
+    width: 100%;
+    height: auto;
+    min-height: 100px;
+    text-align: center;
+}
+.row{
+    width: 100%;
+    height: auto;
+    min-height: 100px;
+    text-align: center;
+}
+.leftcol{
+    width: 20%;
+    height: auto;
+    min-height: 50px;
+    text-align: center;
+    float: left;
+}
+.rightcol{
+    width: 80%;
+    height: auto;
+    min-height: 50px;
+    text-align: center;
+    float: left;
+}
+a{
+    color: #606261;
+    text-decoration: none;
+    font-size: 30px;
+}
+h1{
+    color: #606261;
+    
+}
+h2{
+    color: #606261;
+}
+.formdiv{
+    width: 50%;
+    height: auto;
+    float: left;
+    text-align: center;
+}

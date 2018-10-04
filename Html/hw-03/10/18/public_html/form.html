@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            #maindiv{
+                width: 100%;
+                height: 700px;            
+                background-color: beige;
+            }
+            .leftcol{
+                width: 30%;
+                height: auto;
+                float: left;
+                text-align: right;
+                font-size: 25px;
+            }
+            .rightcol{
+                width: 60%;
+                height: auto;
+                float: left;
+                font-size: 25px;
+            }
+            .midcol{
+                width: 10%;
+                height: auto;
+                float: left;
+            }
+            .row{
+                width: 100%;
+                height: 150px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="maindiv">
+            <div class="row"><h1>Register Here</h1></div>
+            <div class="leftcol">
+                <form>
+                    <label>First Name</label><br/>
+                    <label>Last Name</label><br/>
+                    <label>Email</label><br/>
+                    <label>Password</label><br/>
+                    <label>Date</label><br/>
+                    <label>Gender</label><br/>
+                    <label>Hobbies</label><br/>
+                    <label>Select Your Country</label><br/>
+                    <label>Massage</label>
+                </form>
+            </div>
+            <div class="midcol"><br/></div>
+            <div class="rightcol">
+                <form>
+                    <input type="text"/><br/>
+                    <input type="text"/><br/>
+                    <input type="email"/><br/>
+                    <input type="number"/><br/>
+                    <input type="date"/><br/>
+                    <input type="radio" value="male" name="gender"/>
+                    <label>Male</label>
+                    <input type="radio" value="female" name="gender"/>
+                    <label>Female</label>
+                    <input type="radio" value="other" name="gender"/>
+                    <label>Other</label><br/>
+                    <input type="checkbox" value="travelling"/>
+                    <label>Travelling</label>
+                    <input type="checkbox" value="playing"/>
+                    <label>Playing</label>
+                    <input type="checkbox" value="reading"/>
+                    <label>Reading</label><br/>
+                    <select>
+                        <option>Select a country</option>
+                        <option>Bangladesh</option>
+                        <option>India</option>
+                        <option>Pakistan</option>
+                        <option>Sri Lanka</option>
+                        <option>Nepal</option>
+                        <option>USA</option>
+                        <option>Canada</option>
+                        <option>Australia</option>
+                        <option>Russia</option>
+                        <option>Germany</option>
+                        <option>Italy</option>
+                        <option>France</option>
+                    </select><br/>
+                    <textarea></textarea><br/>
+                    <input type="submit" value="submit"/>
+                    <input type="reset" value="reset"/>
+                    
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
