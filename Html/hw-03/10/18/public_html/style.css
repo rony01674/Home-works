@@ -4,7 +4,9 @@
 */
 
 body{
-    background-image: url("images/background.jpg")
+    background-image: url("images/background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 #maindiv{
     width: 100%;
@@ -36,10 +38,13 @@ a{
     color: #606261;
     text-decoration: none;
     font-size: 30px;
+    border-style: solid;
+    border-color: #42581A #616362;
+    border-radius: 15px;
 }
 h1{
     color: #606261;
-    
+
 }
 h2{
     color: #606261;
